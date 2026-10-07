@@ -2,7 +2,7 @@
 
 A Deep Learning project that uses **Long Short-Term Memory (LSTM)** to predict stock closing prices based on historical time-series data. The project compares a baseline LSTM architecture with a modified Stacked LSTM architecture using **Facebook (FB)** and **IBM** stock data.
 
-## 🎯 Project Overview
+## Project Overview
 
 The objective is to build an LSTM model that learns temporal patterns from historical stock prices and predicts the next trading day's closing price.
 
@@ -19,7 +19,7 @@ This project uses:
 
 Only the `Date` and `Close` columns are used for prediction.
 
-## 🔧 Methodology
+## Methodology
 
 ### Data Preprocessing
 
@@ -73,7 +73,7 @@ The baseline LSTM produced lower error values on both datasets. The modified arc
 * The modified Stacked LSTM tended to produce over-smoothed predictions and was less responsive to sharp price movements.
 * Larger prediction errors occurred during periods with significant changes in the stock price.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Python
 * TensorFlow / Keras
